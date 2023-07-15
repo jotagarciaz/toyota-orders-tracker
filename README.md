@@ -31,7 +31,7 @@ Step Locations Details
 
 This will allow to track your order more accurately than the official website, since you'll be able to see on which date your car arrived into an specific step and also what's the estimated time for the next step ( like when the car leaves a port, and when arrives (estimated) to the next location).
 
-# How it works.
+# HOW IT WORKS.
 
 This extensions intercepts the XHR requests made by toyata.es in order to grab the current full data for your orders.
 
@@ -67,9 +67,15 @@ You have access to the current code, feel free to peek at it, if you want to see
 
 ![Illustration 3](img/screenshot_3.png)
 
-# ADVISE
+# DISCLAIMER FROM THE ORIGINAL AUTHOR
 
 I did this tool for my own usage, and when my car arrives, I won't be able to keep this updates. I'm sharing it as open source on Github in case anyone want to continue the work.
 
 This may break or not work for some users, I only have access to my own order
 so it's hard to do any more testing at my side.
+
+# NOTE
+
+I will try to keep updated this project as far as I can, but it will be difficult to test the code once I have received my car.
+
+You can try to reach me at [@JotaGarciaz](https://github.com/jotagarciaz)
