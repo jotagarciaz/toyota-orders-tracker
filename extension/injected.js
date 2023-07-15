@@ -242,8 +242,6 @@
                     var orderStatusData = JSON.parse(this.responseText);
                     window._tyt[orderId] = Object.assign(window._tyt[orderId],orderStatusData);
 
-                       
-                        console.log(orderId)
                         setTimeout(function() {
                             showTrack(orderId)
                         }, 1000)
