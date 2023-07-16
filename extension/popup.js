@@ -4,7 +4,7 @@ function getCurrentTabUrl(callback) {
     currentWindow: true
   };
 
-  chrome.tabs.query(queryInfo, function(tabs) {
+  chrome.scripting.query(queryInfo, function(tabs) {
     var tab = tabs[0];
     var url = tab.url;
     var tabId = tab.id;
@@ -12,7 +12,8 @@ function getCurrentTabUrl(callback) {
     console.assert(typeof url == 'string', 'tab.url should be a string');
 
 
-  chrome.tabs.executeScript(tabId, {
+  chrome.scripting.executeScript({
+    target: {tabId: tabId},
     code: `window.addData()`
   }, function (result) {
       console.log(result);
