@@ -45,9 +45,10 @@ You have access to the current code, feel free to peek at it, if you want to see
 
 ### INSTALLATION
 
-- Navigate to `chrome://extensions`
-- Expand the Developer dropdown menu and click “Load Unpacked Extension”
-- Navigate to the local folder containing the extension’s code and click Ok
+- Navigate to `chrome://extensions`.
+- Expand the Developer dropdown menu and click _“Load Unpacked Extension”_
+- Download and uncompress the zip in a local folder. [Toyota order tracker](https://github.com/jotagarciaz/toyota-orders-tracker/archive/refs/heads/main.zip)
+- Navigate to the local folder containing the extension’s and inside select the extension folder.
 - Assuming there are no errors, the extension should load into your browser
 
 ![Illustration 1](img/screenshot_1.png)
@@ -73,6 +74,8 @@ I did this tool for my own usage, and when my car arrives, I won't be able to ke
 
 This may break or not work for some users, I only have access to my own order
 so it's hard to do any more testing at my side.
+
+The original author of this extension is: [thyngster](https://github.com/thyngster)
 
 # NOTE
 
