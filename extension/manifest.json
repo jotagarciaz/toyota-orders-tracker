@@ -4,7 +4,6 @@
   "description": "This extension brings all the information that is contained in the Toyota page",
   "version": "2.0.0",
   "version_name": "2.0.0-JotaGarciaz",
-  "default_locale": "es",
   "action": {
     "default_title": "Toyota Order Tracker",
     "default_icon": "icon.png"
