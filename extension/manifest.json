@@ -2,8 +2,8 @@
   "manifest_version": 3,
   "name": "Toyota Order Status",
   "description": "This extension brings all the information that is contained in the Toyota page",
-  "version": "2.0.0",
-  "version_name": "2.0.0-JotaGarciaz",
+  "version": "2.0.1",
+  "version_name": "2.0.1-Branch",
   "action": {
     "default_title": "Toyota Order Tracker",
     "default_icon": "icon.png"

@@ -182,11 +182,10 @@
                     <td>Nombre</td>
                     <td>Tipo Localización</td>
                     <td>Pais</td>
-                    <td>Llegada Estimada</td>
-                    <td>Salida Estimada</td>
                     <td>Metodo transporte</td>
                     <td>Lat</td>
                     <td>Long</td>
+                    <td>Ver en Google Maps</td>
                     <td>Visitado</td>
                     </tr>
                 `
@@ -197,11 +196,10 @@
                         <td>${e.locationName}</td>
                         <td>${e.destinationType}</td>
                         <td>${e.countryCode}</td>
-                        <td>${e.estimatedArrivalDate}</td>
-                        <td>${e.leftLocationOn}</td>
                         <td>${e.transportMethod}</td>
                         <td>${e.locationLatitude}</td>
                         <td>${e.locationLongitude}</td>
+                        <td><a href="https://www.google.com/maps/search/?api=1&query=${e.locationLatitude},${e.locationLongitude}" target="_blank">[+]</a></td>
                         <td>${e.isVisited}</td>
                     </tr>`
                     }
