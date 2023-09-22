@@ -2,8 +2,8 @@
   "manifest_version": 3,
   "name": "Toyota Order Status",
   "description": "This extension brings all the information that is contained in the Toyota page",
-  "version": "2.0.1",
-  "version_name": "2.0.1-Branch",
+  "version": "2.0.3",
+  "version_name": "2.0.3-JoseleDro_ne",
   "action": {
     "default_title": "Toyota Order Tracker",
     "default_icon": "icon.png"
@@ -15,10 +15,14 @@
     {
       "matches": ["http://*/*", "https://*/*"],
       "js": ["content.js"],
+      "css": ["style.css"],
       "run_at": "document_start"
     }
   ],
   "web_accessible_resources": [
-    { "resources": ["injected.js"], "matches": ["http://*/*", "https://*/*"] }
+    {
+      "resources": ["injected.js", "style.css"],
+      "matches": ["http://*/*", "https://*/*"]
+    }
   ]
 }

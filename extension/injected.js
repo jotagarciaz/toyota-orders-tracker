@@ -174,9 +174,9 @@
             `
 
             if (window._tyt[id].intermediateDeliveries == null) {
-                var steps = `<hr /><h2>El pedido aún no tiene pasos.</h2><table border="1">`
+                var steps = `<hr /><h2>El pedido aún no tiene pasos.</h2><table width="100%" border="1">`
             } else {
-                var steps = `<hr /><h2>Pasos del Pedido</h2><table border="1">
+                var steps = `<hr /><h2>Pasos del Pedido</h2><table width="100%" border="1">
                     <tr style="background-color:LightGray; font-size:1.3rem">
                     <td>Código</td>
                     <td>Nombre</td>
