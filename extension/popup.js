@@ -27,6 +27,34 @@ function renderStatus(statusText) {
   document.getElementById('status').textContent = statusText;
 }
 
-document.addEventListener('DOMContentLoaded', function() {
-  getCurrentTabUrl();
+
+
+// popup.js
+// popup.js
+
+// popup.js
+document.addEventListener('DOMContentLoaded', function () {
+  const toggleButton = document.getElementById('toggleExtension');
+
+  // Check the current state of the extension
+  chrome.management.getSelf(function (info) {
+    if (info.enabled) {
+      toggleButton.textContent = 'Disable Extension';
+    } else {
+      toggleButton.textContent = 'Enable Extension';
+    }
+  });
+
+  // Handle the button click
+  toggleButton.addEventListener('click', function () {
+    // Send a message to the background script to toggle the extension state
+    chrome.runtime.sendMessage({ action: 'toggleExtensionState' }, function (response) {
+      // Update the text of the toggle button based on the new state of the extension
+      if (response.enabled) {
+        toggleButton.textContent = 'Disable Extension';
+      } else {
+        toggleButton.textContent = 'Enable Extension';
+      }
+    });
+  });
 });

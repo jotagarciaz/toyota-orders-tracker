@@ -34,9 +34,8 @@
                     </tr>
                 </table>
                     
-                <hr />
-
-                <table width="100%" border="1">
+                
+                <table width="100% margin-top:40px" id="status" border="1">
                     <colgroup>
                         <col style="background-color:LightGray" width="15%">
                         <col style="background-color:white" width="35%">
@@ -72,8 +71,6 @@
                     </tr>    
                 </table>
                     
-                <hr />
-
                 <h2>Datos del Vehículo</h2>
 
                 <table width="100%" border="1">

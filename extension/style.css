@@ -34,4 +34,78 @@ only screen and (max-width: 760px),
 		padding-right: 10px; 
 		white-space: nowrap;
 	}
+
+	h2{
+		margin-top: 25px!important;
+		margin-bottom: 25px!important;
+	}
+
+	#status{
+		margin-top:20px!important;
+	}
+}
+
+
+/* Add your custom styles here */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0; /* Example background color */
+    color: #333; /* Example text color */
+}
+
+h2 {
+    color: #007bff; /* Example heading color */
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+table, th, td {
+    border: 1px solid #ccc; /* Example table borders */
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+/* Style buttons with a modern look */
+button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Add shadows to tables for depth */
+table {
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Style links with a color change on hover */
+a {
+    color: #007bff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #0056b3;
+}
+
+h2{
+	margin-top: 40px!important;
+	margin-bottom: 40px!important;
+}
+
+#status{
+	margin-top:40px!important;
 }
