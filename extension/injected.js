@@ -197,7 +197,7 @@
                         <td>${e.locationLatitude}</td>
                         <td>${e.locationLongitude}</td>
                         <td><a href="https://www.google.com/maps/search/?api=1&query=${e.locationLatitude},${e.locationLongitude}" target="_blank">[+]</a></td>
-                        <td>${e.isVisited}</td>
+                        <td class="status-${e.isVisited}">${e.isVisited}</td>
                     </tr>`
                     }
                 )

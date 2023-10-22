@@ -109,3 +109,23 @@ h2{
 #status{
 	margin-top:40px!important;
 }
+
+.status-notVisited {
+	color: red;
+	font-weight: bold;
+}
+
+.status-visited {
+	color: blue;
+	font-weight: bold;
+}
+
+.status-inTransit {
+	color: orange;
+	font-weight: bold;
+}
+
+.status-current {
+	color: green;
+	font-weight: bold;
+}
